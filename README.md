@@ -1,6 +1,69 @@
 # Flag&Safe – Deine digitale Schutzstelle
 
-*Digitale Soforthilfe bei problematischen Inhalten, Förderung der Selbstwirksamkeit von jungen Nutzer:innen, und institutionelle Vernetzung für eine sichere Online-Schweiz*
+<!-- Header with Palatin logo -->
+<div style="width: 100%; margin-bottom: 2rem; text-align: center;">
+  <img src="data/Palatin.png" alt="Palatin Stiftung" style="max-width: 300px; height: auto;">
+</div>
+
+<!-- Inline CSS styles -->
+<style>
+  /* Big headings in primary blue */
+  h1, h2 {
+    color: #2a6496;
+  }
+  
+  /* Normal text in dark color */
+  p, li, summary {
+    color: #333;
+  }
+  
+  /* Add spacing between list items */
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Ensure images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  /* Dropdown pointer cursor */
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Center content */
+  .center {
+    text-align: center;
+  }
+  
+  /* System diagram */
+  .system-img {
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  /* Team table styling */
+  table {
+    width: 100%;
+    margin: 2rem auto;
+  }
+  
+  td {
+    padding: 1rem;
+    text-align: center;
+    vertical-align: top;
+  }
+</style>
+
+<p style="font-size: 1.2em; color: #666; text-align: center; font-style: italic;">
+Digitale Soforthilfe bei problematischen Inhalten, Förderung der Selbstwirksamkeit von jungen Nutzer:innen, und institutionelle Vernetzung für eine sichere Online-Schweiz
+</p>
 
 ---
 
@@ -25,7 +88,7 @@ Mit dem Inkrafttreten des Digital Services Act in der Europäischen Union werden
 
 ## 🔄 So funktioniert Flag&Safe
 
-![Systemdiagramm der Flag&Safe Plattform](data/TrustedFlagger.png)
+<img src="data/TrustedFlagger.png" alt="Systemdiagramm der Flag&Safe Plattform" class="system-img">
 
 <details>
 <summary><strong>Schritt A: Kinder und Jugendliche melden Inhalte</strong></summary>
@@ -88,14 +151,44 @@ Unser Angebot richtet sich speziell an **Kinder und Jugendliche in der Schweiz**
 
 Ein interdisziplinäres Team aus Informatik, Rechtswissenschaft und Medienpädagogik:
 
-<div align="center">
-
-| <img src="data/HSG_Logo_EN_RGB.svg.png" alt="HSG Logo" width="120"><br>**Universität St.Gallen** | <img src="data/Logo_Université_de_Lausanne.png" alt="Lausanne Logo" width="120"><br>**Universität Lausanne** | <img src="data/logo_stadt_st.gallen.jpg" alt="St.Gallen Logo" width="120"><br>**Primarschule Halden** | <img src="data/Maastricht_University_logo.svg.png" alt="Maastricht Logo" width="120"><br>**Universität Maastricht** |
-|:---:|:---:|:---:|:---:|
-| Institut für Informatik | Rechtswissenschaftliche Abteilung | St.Gallen | Law&Tech Lab |
-| Prof. Simon Mayer<br>Doktorand Luka Bekavac | Prof. Aurelia Tamò-Larrieux<br>Doktorand Alice Palmieri | Benjamin Lizinger<br>Medienpädagoge | Prof. Konrad Kollnig<br>(Unterstützende Funktion) |
-
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="data/HSG_Logo_EN_RGB.svg.png" alt="HSG Logo" style="height: 60px;"><br>
+      <strong>Universität St.Gallen</strong><br>
+      Institut für Informatik<br><br>
+      <img src="data/Simon.png" alt="Simon Mayer" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
+      <strong>Prof. Simon Mayer</strong><br><br>
+      <img src="data/Luka.jpg" alt="Luka Bekavac" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
+      <strong>Doktorand Luka Bekavac</strong>
+    </td>
+    <td>
+      <img src="data/Logo_Université_de_Lausanne.png" alt="Lausanne Logo" style="height: 60px;"><br>
+      <strong>Universität Lausanne</strong><br>
+      Rechtswissenschaftliche Abteilung<br><br>
+      <img src="data/aurelia.jpg" alt="Aurelia Tamò-Larrieux" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
+      <strong>Prof. Aurelia Tamò-Larrieux</strong><br><br>
+      <div style="width: 80px; height: 80px; border-radius: 50%; background-color: #f0f0f0; display: inline-flex; align-items: center; justify-content: center; color: #666; font-weight: bold;">AP</div><br>
+      <strong>Doktorand Alice Palmieri</strong>
+    </td>
+    <td>
+      <img src="data/logo_stadt_st.gallen.jpg" alt="St.Gallen Logo" style="height: 60px;"><br>
+      <strong>Primarschule Halden</strong><br>
+      St.Gallen<br><br>
+      <div style="width: 80px; height: 80px; border-radius: 50%; background-color: #f0f0f0; display: inline-flex; align-items: center; justify-content: center; color: #666; font-weight: bold;">BL</div><br>
+      <strong>Benjamin Lizinger</strong><br>
+      Medienpädagoge
+    </td>
+    <td>
+      <img src="data/Maastricht_University_logo.svg.png" alt="Maastricht Logo" style="height: 60px;"><br>
+      <strong>Universität Maastricht</strong><br>
+      Law&Tech Lab<br><br>
+      <img src="data/Konrad.jpeg" alt="Konrad Kollnig" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
+      <strong>Prof. Konrad Kollnig</strong><br>
+      (Unterstützende Funktion)
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -115,12 +208,12 @@ Dieses Projekt wird als Open-Source-Lösung entwickelt und bereitgestellt.
 
 ---
 
-<div align="center">
+<div class="center">
 
-**© 2025 Flag&Safe Projekt**  
+<strong>© 2025 Flag&Safe Projekt</strong>
 
-*Ein Projekt mit Unterstützung der*
+<p style="font-style: italic;">Ein Projekt mit Unterstützung der</p>
 
-<img src="data/Palatin.png" alt="Palatin Stiftung" width="200">
+<img src="data/Palatin.png" alt="Palatin Stiftung" style="max-width: 200px; height: auto;">
 
 </div>

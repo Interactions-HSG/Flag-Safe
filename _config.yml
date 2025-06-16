@@ -1,15 +1,2 @@
-title: Flag&Safe
-description: Digitale Soforthilfe bei problematischen Inhalten, Förderung der Selbstwirksamkeit von jungen Nutzer:innen, und institutionelle Vernetzung für eine sichere Online-Schweiz
-remote_theme: pages-themes/cayman@v0.2.0
-baseurl: ""
-url: ""
-
-# Social media links
-social_links:
-  github: Flag-Safe
-
-# Build settings
-markdown: kramdown
-permalink: /:title/
-plugins:
-  - jekyll-remote-theme
+title: "Flag&Safe"
+theme: minima
