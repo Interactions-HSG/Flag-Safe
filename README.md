@@ -1,4 +1,3 @@
-# Flag&Safe – Deine digitale Schutzstelle
 
 <!-- Inline CSS styles -->
 <style>
