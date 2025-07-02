@@ -1,5 +1,3 @@
-# Flag&Safe – Deine digitale Schutzstelle
-
 <!-- Header with Palatin logo -->
 <div style="width: 100%; margin-bottom: 2rem; text-align: center;">
   <img src="data/Palatin.png" alt="Palatin Stiftung" style="max-width: 300px; height: auto;">
@@ -58,6 +56,34 @@
     padding: 1rem;
     text-align: center;
     vertical-align: top;
+  }
+  
+  /* Team logo consistent sizing */
+  .team-logo {
+    height: 80px;
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+  
+  /* Team member photo consistent sizing */
+  .team-photo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0.5rem auto;
+    display: block;
+  }
+  
+  /* Institution name consistent height */
+  .institution-name {
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
   }
 </style>
 
@@ -154,36 +180,44 @@ Ein interdisziplinäres Team aus Informatik, Rechtswissenschaft und Medienpädag
 <table>
   <tr>
     <td>
-      <img src="data/HSG_Logo_EN_RGB.svg.png" alt="HSG Logo" style="height: 60px;"><br>
-      <strong>Universität St.Gallen</strong><br>
-      Institut für Informatik<br><br>
-      <img src="data/Luka.jpg" alt="Luka Bekavac" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
-      <strong>Doktorand Luka Bekavac</strong>
-      <img src="data/Simon.png" alt="Simon Mayer" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
-      <strong>Prof. Simon Mayer</strong><br><br>
+      <img src="data/HSG_Logo_EN_RGB.svg.png" alt="HSG Logo" class="team-logo"><br>
+      <div class="institution-name">
+        <strong>Universität St.Gallen</strong><br>
+        Institut für Informatik
+      </div>
+      <img src="data/Luka.jpg" alt="Luka Bekavac" class="team-photo">
+      <strong>Doktorand Luka Bekavac</strong><br><br>
+      <img src="https://storage.inrupt.com/f531f8ef-cd9d-474a-9fa6-70026b37c847/public/publicPortrait-square.jpg" alt="Simon Mayer" class="team-photo">
+      <strong>Prof. Simon Mayer</strong>
     </td>
     <td>
-      <img src="data/Logo_Université_de_Lausanne.png" alt="Lausanne Logo" style="height: 60px;"><br>
-      <strong>Universität Lausanne</strong><br>
-      Rechtswissenschaftliche Abteilung<br><br>
-      <div style="width: 80px; height: 80px; border-radius: 50%; background-color: #f0f0f0; display: inline-flex; align-items: center; justify-content: center; color: #666; font-weight: bold;">AP</div><br>
-      <strong>Doktorand Alice Palmieri</strong>
-      <img src="data/aurelia.jpg" alt="Aurelia Tamò-Larrieux" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
-      <strong>Prof. Aurelia Tamò-Larrieux</strong><br><br>
+      <img src="data/Logo_Université_de_Lausanne.png" alt="Lausanne Logo" class="team-logo"><br>
+      <div class="institution-name">
+        <strong>Universität Lausanne</strong><br>
+        Rechtswissenschaftliche Abteilung
+      </div>
+      <img src="data/Alice.jpeg" alt="Alice Palmieri" class="team-photo">
+      <strong>Doktorand Alice Palmieri</strong><br><br>
+      <img src="data/aurelia.jpg" alt="Aurelia Tamò-Larrieux" class="team-photo">
+      <strong>Prof. Aurelia Tamò-Larrieux</strong>
     </td>
     <td>
-      <img src="data/logo_stadt_st.gallen.jpg" alt="St.Gallen Logo" style="height: 60px;"><br>
-      <strong>Primarschule Halden</strong><br>
-      St.Gallen<br><br>
-      <div style="width: 80px; height: 80px; border-radius: 50%; background-color: #f0f0f0; display: inline-flex; align-items: center; justify-content: center; color: #666; font-weight: bold;">BL</div><br>
+      <img src="data/logo_stadt_st.gallen.jpg" alt="St.Gallen Logo" class="team-logo"><br>
+      <div class="institution-name">
+        <strong>Primarschule Halden</strong><br>
+        St.Gallen
+      </div>
+      <img src="data/Benjamin-Lizinger.jpg" alt="Benjamin Lizinger" class="team-photo">
       <strong>Benjamin Lizinger</strong><br>
       Medienpädagoge
     </td>
     <td>
-      <img src="data/Maastricht_University_logo.svg.png" alt="Maastricht Logo" style="height: 60px;"><br>
-      <strong>Universität Maastricht</strong><br>
-      Law&Tech Lab<br><br>
-      <img src="data/Konrad.jpeg" alt="Konrad Kollnig" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
+      <img src="data/Maastricht_University_logo.svg.png" alt="Maastricht Logo" class="team-logo"><br>
+      <div class="institution-name">
+        <strong>Universität Maastricht</strong><br>
+        Law&Tech Lab
+      </div>
+      <img src="data/Konrad.jpeg" alt="Konrad Kollnig" class="team-photo">
       <strong>Prof. Konrad Kollnig</strong><br>
       (Unterstützende Funktion)
     </td>
