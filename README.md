@@ -69,18 +69,18 @@ Digitale Soforthilfe bei problematischen Inhalten, Förderung der Selbstwirksamk
 
 ## 📋 Projekt-Überblick
 
-### Das Problem: Gefahren Online
-Junge Menschen stoßen immer häufiger auf problematische Inhalte wie Hassreden, Falschinformationen oder extreme Inhalte in sozialen Medien. Bestehende Schutzmaßnahmen sind oft präventiv, aber es fehlt an direkter Hilfe, wenn Kinder und Jugendliche akut mit solchen Inhalten konfrontiert werden.
+### Das Problem: Online-Gefahren für Junge Nutzer:innen
+Kinder und Jugendliche stossen immer häufiger auf problematische Inhalte wie hate speech, Falschinformationen oder extreme Inhalte in sozialen Medien. Bestehende Schutzmassnahmen zielen oft auf Prävention ab - jedoch fehlt es an direkter Unterstützung für Kinder und Lehrpersonen nach akuter Konfrontation mit solchen Inhalten.
 
-### Unsere Lösung: Flag&Safe
-Wir entwickeln "Flag&Safe", eine kindgerechte Plattform, auf der junge Nutzer:innen bedenkliche Online-Inhalte einfach und sicher melden können. Die Plattform prüft Meldungen automatisch vor und leitet dringende Fälle an ein Netzwerk von Fachpersonen (z.B. Schulpsycholog:innen, Beratungsstellen) weiter. So entsteht schnelle, unkomplizierte Hilfe.
+### Unsere Lösungsansatz: Flag&Safe
+Wir entwickeln mit "Flag&Safe" eine kindgerechte Plattform, auf der junge Nutzer:innen bedenkliche Online-Inhalte einfach und sicher melden können. Die Plattform führt eine automatische Vorprüfung durch und leitet dringende Fälle an ein Netzwerk von Fachpersonen (z.B. Schulpsycholog:innen, Beratungsstellen) weiter. Dabei bleiben Daten und Metadaten der Inhalte erhalten, was diese Fachpersonen befähigt, schnell und unkompliziert einzugreifen.
 
 <details>
 <summary><strong>Mehr zur Vision</strong></summary>
 
-In jüngster Zeit häufen sich Berichte über radikalisierende Inhalte in sozialen Medien – auch in der Schweiz sorgen Schlagzeilen wie „Radikalisierung im Internet: Mit TikTok zum IS-Fanatiker" für Aufmerksamkeit. Gleichzeitig berichten immer mehr junge Nutzerinnen und Nutzer, dass sie in ihren Social-Media-Feeds auf unerwünschte sexuelle, irreführende und hasserfüllte Inhalte stossen.
+In jüngster Zeit häufen sich Berichte über radikalisierende Inhalte in sozialen Medien – auch in der Schweiz sorgen Schlagzeilen wie „Radikalisierung im Internet: Mit TikTok zum IS-Fanatiker" für Aufmerksamkeit. Gleichzeitig berichten immer mehr junge Nutzer:innen, dass sie in ihren Social-Media-Feeds auf unerwünschte sexuelle, irreführende und hasserfüllte Inhalte stossen.
 
-Mit dem Inkrafttreten des Digital Services Act in der Europäischen Union werden nun strengere Regeln für soziale Medien eingeführt, insbesondere um Kinder besser zu schützen. Ein zentraler Aspekt solcher Massnahmen sind sogenannte "Trusted Flagger". Diese Akteure identifizieren problematische Inhalte, melden sie und entfernen sie von Social-Media Plattformen.
+Mit dem Inkrafttreten des Digital Services Act in der Europäischen Union werden strengere Regeln für soziale Medien eingeführt, insbesondere um Kinder besser zu schützen. Ein zentraler Aspekt solcher Massnahmen sind sogenannte "Trusted Flagger". Diese Akteure identifizieren problematische Inhalte, melden sie und entfernen sie von Social-Media Plattformen. Jedoch existiert in der Schweiz keine entsprechende Meldestelle. Dieses Problem versuchen wir, mit dem Flag&Safe Projekt zu lösen.
 
 </details>
 
@@ -93,42 +93,42 @@ Mit dem Inkrafttreten des Digital Services Act in der Europäischen Union werden
 <details>
 <summary><strong>Schritt A: Kinder und Jugendliche melden Inhalte</strong></summary>
 
-Wenn Kinder oder Jugendliche in sozialen Medien auf problematische Inhalte stoßen (z.B. extreme, radikale, hasserfüllte oder sexuelle Inhalte), können sie diese ganz einfach über unsere Plattform melden. Das geht zum Beispiel, indem sie einen Link zum Inhalt schicken oder einen Chatbot direkt in der App nutzen.
+Wenn Kinder oder Jugendliche in sozialen Medien auf problematische Inhalte stossen (z.B. extreme, radikale, hasserfüllte oder sexuelle Inhalte), können sie diese über die Flag&Safe Plattform melden. Hierfür schicken sie einen link zum Inhalt oder nutzen einen integrierten Chatbot.
 
 </details>
 
 <details>
 <summary><strong>Schritt B: Inhalte werden gesammelt und geprüft</strong></summary>
 
-Sobald ein Inhalt gemeldet wird, sammelt unser System diesen automatisch und speichert ihn sicher ab. Spezielle Computerprogramme (künstliche Intelligenz) schauen sich den Inhalt dann genau an und prüfen, ob er gegen Regeln verstößt oder sogar illegal ist. Dabei werden auch bekannte Listen mit verbotenen Inhalten abgeglichen.
+Sobald ein potenziell problematischer Inhalt gemeldet wird, sammelt unser System diesen automatisch und speichert ihn sicher ab. Spezielle Computerprogramme schauen sich den Inhalt unter Zuhilfenahme von künstlicher Intelligenz an und prüfen, ob er gegen Regeln verstößt oder sogar illegal sein könnte. Dabei werden auch bekannte Listen mit verbotenen Inhalten abgeglichen.
 
 </details>
 
 <details>
 <summary><strong>Schritt C: Automatische Meldung an Plattformen und Behörden</strong></summary>
 
-Wenn ein Inhalt gegen die Regeln der sozialen Medien oder gegen Gesetze verstößt, meldet unser System ihn automatisch direkt an die Betreiber der Social-Media-Plattform (z.B. TikTok, Instagram). Wenn der Inhalt ganz klar illegal ist, werden auch die zuständigen Polizeibehörden informiert.
+Wenn ein Inhalt gegen die Regeln der sozialen Medien oder gegen Gesetze verstößt, meldet unser System ihn automatisch direkt an die Betreiber der Social-Media-Plattform (z.B. TikTok, Instagram). Wenn der Inhalt klar illegal ist, könnte der Inhalt sogar vollautomatisch an die zuständigen Polizeibehörden gemeldet werden.
 
 </details>
 
 <details>
 <summary><strong>Schritt D: Schnelle Hilfe für Betroffene</strong></summary>
 
-Gleichzeitig informiert das System auch lokale Hilfsstellen, wie Schulpsychologen oder Medienpädagogen. Diese Fachleute bekommen dann die wichtigsten Informationen über den gemeldeten Inhalt und können dem betroffenen Kind schnell helfen, zum Beispiel durch ein Beratungsgespräch.
+Gleichzeitig informiert das System auch lokale Hilfsstellen, wie Schulpsychologen oder Medienpädagogen. Diese Fachleute erhalten dann die wichtigsten Informationen über den gemeldeten Inhalt und können dem betroffenen Kind schnell helfen, zum Beispiel durch ein Beratungsgespräch.
 
 </details>
 
 <details>
 <summary><strong>Schritt E: System lernt dazu und wird besser</strong></summary>
 
-Alle gemeldeten Inhalte werden gesammelt und helfen dabei, unser System immer besser zu machen. Die künstliche Intelligenz lernt mit jedem neuen Fall dazu und kann so problematische Inhalte in Zukunft noch schneller und genauer erkennen. Wir können so auch besser verstehen, welche gefährlichen Trends es online gibt.
+Alle gemeldeten Inhalte werden gesammelt und helfen dabei, unser System immer weiter zu verbessern. Die künstliche Intelligenz lernt aus neuen Fällen unter Wahrung der Anonymität der beteiligten Personen und kann so problematische Inhalte in Zukunft noch schneller und genauer erkennen. Wir können ausserdem so auch besser verstehen, welche potenziell gefährlichen Trends sich gerade online entwickeln.
 
 </details>
 
 <details>
 <summary><strong>Schritt F: Infos für die Politik</strong></summary>
 
-Die gesammelten Informationen und Erkenntnisse geben wir auch an die Politik weiter. So können Politikerinnen und Politiker besser verstehen, welchen Gefahren Kinder und Jugendliche online ausgesetzt sind und neue Gesetze oder Regeln entwickeln, um sie besser zu schützen.
+Unsere gesammelten Erkenntnisse geben wir auch an die Politik weiter. So können Politikerinnen und Politiker besser verstehen, welchen Gefahren Kinder und Jugendliche online ausgesetzt sind und neue Gesetze entwickeln, um sie besser zu schützen.
 
 </details>
 
@@ -157,19 +157,19 @@ Ein interdisziplinäres Team aus Informatik, Rechtswissenschaft und Medienpädag
       <img src="data/HSG_Logo_EN_RGB.svg.png" alt="HSG Logo" style="height: 60px;"><br>
       <strong>Universität St.Gallen</strong><br>
       Institut für Informatik<br><br>
-      <img src="data/Simon.png" alt="Simon Mayer" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
-      <strong>Prof. Simon Mayer</strong><br><br>
       <img src="data/Luka.jpg" alt="Luka Bekavac" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
       <strong>Doktorand Luka Bekavac</strong>
+      <img src="data/Simon.png" alt="Simon Mayer" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
+      <strong>Prof. Simon Mayer</strong><br><br>
     </td>
     <td>
       <img src="data/Logo_Université_de_Lausanne.png" alt="Lausanne Logo" style="height: 60px;"><br>
       <strong>Universität Lausanne</strong><br>
       Rechtswissenschaftliche Abteilung<br><br>
-      <img src="data/aurelia.jpg" alt="Aurelia Tamò-Larrieux" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
-      <strong>Prof. Aurelia Tamò-Larrieux</strong><br><br>
       <div style="width: 80px; height: 80px; border-radius: 50%; background-color: #f0f0f0; display: inline-flex; align-items: center; justify-content: center; color: #666; font-weight: bold;">AP</div><br>
       <strong>Doktorand Alice Palmieri</strong>
+      <img src="data/aurelia.jpg" alt="Aurelia Tamò-Larrieux" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover;"><br>
+      <strong>Prof. Aurelia Tamò-Larrieux</strong><br><br>
     </td>
     <td>
       <img src="data/logo_stadt_st.gallen.jpg" alt="St.Gallen Logo" style="height: 60px;"><br>
@@ -198,7 +198,7 @@ Ein interdisziplinäres Team aus Informatik, Rechtswissenschaft und Medienpädag
 **Projektende:** 30.04.2026
 
 ### Nachhaltigkeit
-Die Universität St.Gallen sichert den Betrieb der Plattform für 5 Jahre nach Projektende zu. Die Open-Source-Lösung ermöglicht zudem Weiterentwicklung und Betrieb durch Dritte.
+Die Universität St.Gallen sichert den Betrieb der Plattform für 5 Jahre nach Projektende zu. Die Open-Source-Lösung ermöglicht zudem die Weiterentwicklung und den Betrieb der Plattform durch Dritte.
 
 ---
 
