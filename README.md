@@ -1,7 +1,4 @@
-<!-- Header with Palatin logo -->
-<div style="width: 100%; margin-bottom: 2rem; text-align: center;">
-  <img src="data/Palatin.png" alt="Palatin Stiftung" style="max-width: 300px; height: auto;">
-</div>
+# Flag&Safe – Deine digitale Schutzstelle
 
 <!-- Inline CSS styles -->
 <style>
